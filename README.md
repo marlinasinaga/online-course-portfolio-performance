@@ -157,7 +157,9 @@ The dashboard includes:
 ![Online Course Portfolio Performance](online-course-dashboard.png)
 
 ### Excel Workbook
-[Download Excel Workbook](Online_Course_Portfolio_Performance.xlsx)
+The complete Excel workbook used for data preparation, analysis, PivotTables, and dashboard development is available below.
+
+[📊 View Excel Workbook](./ONLINE_COURSE_PORTOFOLIO.xlsx)
 
 ## 7. Key Findings
 ### Finding 1 — Higher Enrollment Is Associated With Higher Average Revenue
