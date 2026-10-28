@@ -53,19 +53,6 @@ It contains **10,000 online courses** with information related to course categor
 
 ## 3. Tools & Methodology
 ### Tools
-- Microsoft Excel
-- PivotTable & PivotChart
-- Slicer
-- Excel Formulas 
-- Data Cleaning
-- Data Segmentation
-- Data Visualization
-
-### Analytical Approach
-The analysis follows an end-to-end analytical workflow:
-## 3. Tools & Methodology
-
-### Tools
 
 - **Microsoft Excel**
   - PivotTable & PivotChart
@@ -76,13 +63,11 @@ The analysis follows an end-to-end analytical workflow:
   - Data Visualization
 
 ### Analytical Methodology
-
 The analysis follows a structured data analytics workflow:
 
 **Raw Data → Data Preparation → Data Transformation → Exploratory Analysis → Dashboard → Business Insights → Recommendations**
 
 ### Analysis Approach
-
 1. **Data Preparation**  
    Reviewed the dataset and prepared relevant variables for analysis.
 
@@ -100,7 +85,6 @@ The analysis follows a structured data analytics workflow:
 
 ## 4. Data Preparation
 The dataset was prepared in Microsoft Excel to ensure that the variables were suitable for analysis and visualization.
-
 ### Data Preparation Process
 
 1. **Data Review**  
