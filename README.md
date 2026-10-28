@@ -54,74 +54,144 @@ It contains **10,000 online courses** with information related to course categor
 ## 3. Tools & Methodology
 ### Tools
 - Microsoft Excel
-- PivotTable
-- PivotChart
+- PivotTable & PivotChart
 - Slicer
-- Excel Charts
-- Excel Formulas
+- Excel Formulas 
 - Data Cleaning
-- Descriptive Analysis
+- Data Segmentation
+- Data Visualization
 
 ### Analytical Approach
 The analysis follows an end-to-end analytical workflow:
-**Raw Data → Data Preparation → Data Transformation → Exploratory Analysis → Dashboard → Insights → Recommendations**
-The analysis was structured as a business case to translate descriptive patterns in the dataset into actionable business insights.
+## 3. Tools & Methodology
+
+### Tools
+
+- **Microsoft Excel**
+  - PivotTable & PivotChart
+  - Excel Formulas
+  - Slicers
+  - Data Cleaning
+  - Data Segmentation
+  - Data Visualization
+
+### Analytical Methodology
+
+The analysis follows a structured data analytics workflow:
+
+**Raw Data → Data Preparation → Data Transformation → Exploratory Analysis → Dashboard → Business Insights → Recommendations**
+
+### Analysis Approach
+
+1. **Data Preparation**  
+   Reviewed the dataset and prepared relevant variables for analysis.
+
+2. **Data Transformation**  
+   Created analytical segments for key variables, including duration, price, enrollment, revenue, and portfolio performance.
+
+3. **Exploratory Analysis**  
+   Used PivotTables and PivotCharts to analyze revenue, enrollment, course categories, platforms, pricing, duration, and completion rates.
+
+4. **Dashboard Development**  
+   Developed an interactive Excel dashboard using charts, KPI cards, and slicers to communicate key performance patterns.
+
+5. **Business Analysis**  
+   Interpreted the analytical findings to identify portfolio performance patterns and translate them into business insights and recommendations.
 
 ## 4. Data Preparation
-The dataset was prepared for analysis by reviewing data consistency and creating additional analytical categories to support segmentation and comparison.
+## 4. Data Preparation
 
-### Derived Variables
-- **Duration Range**
-- **Price Range**
-- **Enrollment Range**
-- **Revenue Segment**
-- **Enrollment Segment**
-- **Portfolio Segment**
+The dataset was prepared in Microsoft Excel to ensure that the variables were suitable for analysis and visualization.
 
-These derived variables were used to compare course performance across different levels of learner demand, pricing, and revenue.
+### Data Preparation Process
+
+1. **Data Review**  
+   Reviewed the dataset structure and relevant variables used for the analysis.
+
+2. **Data Validation**  
+   Checked numerical and categorical fields to ensure consistency for analysis.
+
+3. **Data Transformation**  
+   Created additional analytical fields to support segmentation and comparison, including:
+   - Duration Range
+   - Price Range
+   - Enrollment Range
+   - Revenue Segment
+   - Enrollment Segment
+   - Portfolio Segment
+
+4. **PivotTable Preparation**  
+   Organized the prepared data using PivotTables to calculate and compare key metrics such as revenue, enrollment, completion rate, and course distribution.
+
+5. **Dashboard Preparation**  
+   Selected the most relevant analytical results and transformed them into visualizations for the final Excel dashboard.
 
 ## 5. Exploratory Analysis
-The analysis examines course portfolio performance across several dimensions:
-- Revenue by Platform
-- Revenue by Course Category
-- Enrollment by Course Duration
-- Completion Rate by Course Duration
-- Average Revenue by Enrollment Range
-- Course Distribution by Category
-- Course Performance by Price Range
+The exploratory analysis examines course portfolio performance across revenue, learner demand, platform, category, pricing, course duration, and completion rate.
 
-## 6. Key Findings
+### Revenue Performance
+Analyzed revenue contribution across different platforms and course categories to identify major revenue-generating areas within the course portfolio.
+
+### Learner Demand & Revenue
+Compared learner enrollment with average revenue across enrollment ranges to examine whether courses with higher learner demand are associated with stronger revenue performance.
+
+### Course Duration & Learner Engagement
+Analyzed enrollment and completion rates across different course-duration ranges to evaluate patterns in learner demand and engagement.
+
+### Pricing Performance
+Examined course distribution and revenue performance across different price ranges to understand pricing patterns within the portfolio.
+
+### Portfolio Distribution
+Analyzed the distribution of courses across categories and performance segments to identify areas with different levels of revenue and learner demand.
+
+## 6. Dashboard
+The interactive Excel dashboard summarizes the key findings from the analysis and provides an overview of course portfolio performance across revenue, learner demand, platform, category, pricing, course duration, and completion rate.
+
+### Dashboard Overview
+The dashboard includes:
+- **Revenue Performance** — revenue contribution across platforms and course categories.
+- **Learner Demand** — enrollment patterns across different course segments.
+- **Revenue & Enrollment** — comparison between learner demand and average revenue.
+- **Course Duration & Completion** — comparison of enrollment and completion rates across duration ranges.
+- **Pricing Performance** — course and revenue distribution across price ranges.
+- **Portfolio Performance** — overview of course portfolio distribution and performance.
+
+![Online Course Portfolio Performance](dashboard/online-course-dashboard.png)
+
+## 7. Key Findings
 ### Finding 1 — Higher Enrollment Is Associated With Higher Average Revenue
 Average revenue increases consistently across enrollment ranges, from approximately **$57K** for courses with 0–1K enrollments to approximately **$477K** for courses with 4K–5K enrollments.
-This pattern indicates a strong association between learner demand and revenue performance.
 
-### Finding 2 — Platform Performance Differs Across the Portfolio
-Revenue contribution varies across platforms, with some platforms generating higher revenue than others.
-This suggests that platform performance is an important dimension to consider when evaluating course portfolio performance.
+This indicates a strong association between learner demand and revenue performance. Courses with higher enrollment tend to generate substantially higher average revenue.
+
+### Finding 2 — Revenue Performance Varies Across Platforms
+Revenue contribution differs across platforms, indicating that course monetization is not evenly distributed across the platform portfolio.
+
+This highlights the importance of evaluating platform performance when assessing overall course portfolio performance.
 
 ### Finding 3 — Revenue Contribution Varies Across Course Categories
-Course categories contribute different levels of revenue, indicating that monetization is not evenly distributed across the course portfolio.
-Categories with stronger revenue contribution may represent areas for further evaluation, while considering course volume and learner demand alongside revenue.
+Revenue is distributed differently across course categories, with some categories contributing substantially more revenue than others.
+
+This indicates that category-level performance should be considered when evaluating opportunities for portfolio optimization.
 
 ### Finding 4 — Course Duration Does Not Show a Clear Relationship With Completion Rate
-Completion rates remain within a relatively narrow range across different course-duration groups, while enrollment varies more noticeably.
-This suggests that longer course duration alone does not necessarily indicate stronger learner engagement.
+Completion rates remain relatively close across different course-duration ranges, while enrollment varies more noticeably.
 
-## 7. Dashboard
-The dashboard provides an interactive overview of course revenue, learner demand, platform performance, course categories, pricing, duration, and completion rates.
+This suggests that longer course duration alone does not necessarily indicate stronger learner engagement or completion performance.
 
-![Online Course Portfolio Performance](dashboard/dashboard.png)
+### Finding 5 — Revenue and Learner Demand Should Be Evaluated Together
+The analysis shows that revenue performance and learner enrollment provide complementary views of course performance.
 
 ## 8. Business Recommendations
 
 ### 1. Prioritize High-Demand Courses
-Courses with stronger learner enrollment should receive greater attention in promotion and discoverability initiatives, as higher enrollment is associated with substantially higher average revenue.
+Courses with higher enrollment are associated with substantially higher average revenue. The business can prioritize high-demand courses for promotion, visibility, and learner acquisition initiatives to further support revenue performance.
 
-### 2. Evaluate High-Performing Categories
-Categories with strong revenue contribution should be evaluated for potential portfolio expansion while considering learner demand, course volume, rating, and completion rate.
+### 2. Evaluate High-Performing Course Categories
+Course categories with stronger revenue contribution should be evaluated for potential portfolio expansion. However, expansion decisions should also consider learner demand, course volume, ratings, and completion rates.
 
-### 3. Evaluate Pricing Together With Demand
-Pricing performance should not be evaluated independently. Revenue and enrollment should be considered together when assessing pricing and monetization opportunities.
+### 3. Optimize Pricing Based on Learner Demand
+Pricing decisions should be evaluated together with enrollment and revenue performance. Courses with strong learner demand may provide opportunities to evaluate whether current pricing appropriately captures their market potential.
 
-### 4. Use Multiple Performance Indicators
-Portfolio decisions should consider multiple indicators, including **revenue, enrollment, completion rate, rating, pricing, and course characteristics**, rather than relying on a single performance metric.
+### 4. Use a Multi-Metric Portfolio Evaluation
+Portfolio decisions should not rely on revenue alone. Combining **revenue, enrollment, completion rate, rating, price, and course characteristics** can provide a more comprehensive view of course performance and help identify different portfolio opportunities.
