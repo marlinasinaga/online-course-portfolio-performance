@@ -99,8 +99,6 @@ The analysis follows a structured data analytics workflow:
    Interpreted the analytical findings to identify portfolio performance patterns and translate them into business insights and recommendations.
 
 ## 4. Data Preparation
-## 4. Data Preparation
-
 The dataset was prepared in Microsoft Excel to ensure that the variables were suitable for analysis and visualization.
 
 ### Data Preparation Process
@@ -157,6 +155,9 @@ The dashboard includes:
 - **Portfolio Performance** — overview of course portfolio distribution and performance.
 
 ![Online Course Portfolio Performance](online-course-dashboard.png)
+
+### Excel Workbook
+[Download Excel Workbook](Online_Course_Portfolio_Performance.xlsx)
 
 ## 7. Key Findings
 ### Finding 1 — Higher Enrollment Is Associated With Higher Average Revenue
