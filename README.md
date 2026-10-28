@@ -156,7 +156,7 @@ The dashboard includes:
 - **Pricing Performance** — course and revenue distribution across price ranges.
 - **Portfolio Performance** — overview of course portfolio distribution and performance.
 
-![Online Course Portfolio Performance](dashboard/online-course-dashboard.png)
+![Online Course Portfolio Performance](online-course-dashboard.png)
 
 ## 7. Key Findings
 ### Finding 1 — Higher Enrollment Is Associated With Higher Average Revenue
