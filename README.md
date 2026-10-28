@@ -158,8 +158,7 @@ The dashboard includes:
 
 ### Excel Workbook
 The complete Excel workbook used for data preparation, analysis, PivotTables, and dashboard development is available below.
-
-[📊 View Excel Workbook](./ONLINE_COURSE_PORTOFOLIO.xlsx)
+[📊 View Excel Workbook](./online-course-portfolio.xlsx)
 
 ## 7. Key Findings
 ### Finding 1 — Higher Enrollment Is Associated With Higher Average Revenue
